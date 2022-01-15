@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int ro; 
+printf("Enter Random Number Of cour Choice : ");
+scanf("%d",&ro);
+switch(ro)
+{
+case 1: printf("\nDosa @ Rs150\n\n");break;
+case 2: printf("Noodles @ Rs200\n\n");break;
+case 3: printf("Pizza @ Rs250\n\n");break;
+case 4: printf("Burger @ Rs299\n\n");break;
+case 5: printf("Chicken Bucket @ Rs350\n\n");break;
+}
+return 0;
+}
